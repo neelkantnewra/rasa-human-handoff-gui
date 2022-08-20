@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    background: #f8f8f8;
+    font-family:"Roboto",sans-serif;
+}
+
+.main-container{
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.sub-container-header{
+    background-color: rgb(61, 6, 112);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px 10px 0 0;
+}
+
+.sub-container-header-logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin:5px;
+}
+.sub-container-header-text{
+    color: bisque;
+    font: "Roboto",sans-serif;
+    font-size: xx-large;
+    align-self: center;
+    padding-left: 50px;
+}
+
+.sub-container-display{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+.sub-container-textbox{
+    display: flex;
+}
+.sub-container-textbox-editbox textarea{
+    resize: none;
+    width: 195%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background-color: #efe9e9;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.sub-container-textbox button{
+    width: 100px;
+    height: 55px;
+    margin-left: 340px;
+
+}

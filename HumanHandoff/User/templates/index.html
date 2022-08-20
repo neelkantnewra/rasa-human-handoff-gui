@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Rasa-User: Interface to talk</title>
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="sub-container-header">
+            <div class="sub-container-header-logo">
+                <img src="static/image/bot-image.jpg" alt="logo-image">
+            </div>
+            <div class="sub-container-header-text">Welcome User</div>
+        </div>
+        <div class="sub-container-display">
+            <!-- dynamic adding of message -->
+        </div>
+        <div class="sub-container-textbox">
+            <div class="sub-container-textbox-editbox">
+                <textarea id="textarea" cols="30" rows="1" placeholder="Write your message"></textarea>
+            </div>
+            <div class="sub-container-textbox-sendbutton">
+                <button><i class="material-icons">send</i></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
